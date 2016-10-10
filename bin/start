@@ -1,2 +1,3 @@
 #!/bin/bash
-node ../tp1/src/app.js
+# node ../tp/src/app.js
+./node_modules/.bin/coffee ./tp/src/app.coffee --compilers mocha --compilers coffee:coffee-script/register

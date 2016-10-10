@@ -1,13 +1,13 @@
 var should = require('should');
-var user = require('../tp1/src/user.js');
+var user = require('../tp/src/user.js');
 
-describe('my test series', function() {
+describe('my js test series', function() {
   it('get : should return tangui', function(){
     user.get("tangui",function(res){
       res.should.equal("tangui");
     })
   })
-  
+
   it('get : should return !tangui', function(){
     user.get("test",function(res){
       res.should.be.not.equal("tangui");
