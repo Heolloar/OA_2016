@@ -7,6 +7,7 @@ describe('my test series', function() {
       res.should.equal("tangui");
     })
   })
+  
   it('save : should return tangui', function(){
     user.save("tangui",function(res){
       res.should.equal("tangui");
