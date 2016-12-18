@@ -1,0 +1,5 @@
+2016/12/18-21:19:15.390 2ec Recovering log #280
+2016/12/18-21:19:15.390 2ec Level-0 table #282: started
+2016/12/18-21:19:15.524 2ec Level-0 table #282: 1419 bytes OK
+2016/12/18-21:19:15.846 2ec Delete type=0 #280
+2016/12/18-21:19:15.846 2ec Delete type=3 #278

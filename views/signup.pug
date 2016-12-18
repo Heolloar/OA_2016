@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .container
+    .headerLogin.col-md-offset-3.col-md-6.col-lg-offset-3.col-lg-6
+      #form
+        h1 Enregistrer vous
+        form#login(action='/signup', method="post")
+          .form-group.row
+            label.col-md-3 Username :
+            input(type='text', name="username").col-md-offset-1.col-md-5
+          .form-group.row
+            label.col-md-3 Password :
+            input(type='password', name="password").col-md-offset-1.col-md-5
+          .form-group.row
+            label.col-md-3 Email :
+            input(type='email', name="email").col-md-offset-1.col-md-5
+
+          button#login_submit.btn.col-md-offset-3.col-md-4(type='submit')
+            i.icon-ok.icon-white
+            |  Enregistrer

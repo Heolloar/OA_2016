@@ -1,17 +1,18 @@
-should = require 'should'
-user = require '../tp/src/user'
+should=require("should")
+user=require("../src/user.coffee")
 
-describe 'my coffee-script test series ', ->
-  it 'get : should return tangui', ->
-    user.get 'tangui', (res) ->
-      res.should.equal 'tangui'
+describe 'Tests', ->
+    	
+    it 'get should return test', ->
+   		user.get 'test', (res) ->
+   			res.should.equal 'test'
 
-  it 'get : should return !tangui', ->
-    user.get 'test', (res) ->
-      res.should.be.not.equal 'tangui'
+    
+    it 'get should not return test', ->
+    	user.get 'test2', (res) ->	
+    		res.should.be.not.equal 'test'        
 
-  it 'save : should return tangui', ->
-    user.save 'tangui', (res) ->
-      res.should.equal 'tangui'
-
-  #it('should do smth else', function(done){...})
+    	
+    it 'get should return test', ->
+    	user.save 'test', (res) ->
+    		res.should.equal 'test'        

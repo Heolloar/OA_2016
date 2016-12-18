@@ -1,0 +1,11 @@
+2016/12/18-21:19:15.362 17cc Recovering log #169
+2016/12/18-21:19:15.362 17cc Level-0 table #171: started
+2016/12/18-21:19:15.535 17cc Level-0 table #171: 280 bytes OK
+2016/12/18-21:19:15.835 17cc Delete type=0 #169
+2016/12/18-21:19:15.835 17cc Delete type=3 #168
+2016/12/18-21:19:15.836 348 Compacting 2@0 + 0@1 files
+2016/12/18-21:19:15.890 348 Generated table #173@0: 1 keys, 192 bytes
+2016/12/18-21:19:15.890 348 Compacted 2@0 + 0@1 files => 192 bytes
+2016/12/18-21:19:15.935 348 compacted to: files[ 2 2 0 0 0 0 0 ]
+2016/12/18-21:19:15.935 348 Delete type=2 #147
+2016/12/18-21:19:15.936 348 Delete type=2 #152

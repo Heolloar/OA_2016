@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .container
+    .headerLogin.col-md-6
+      #form
+        h1 Entrez vos identifiants
+        form#login(action='/login', method="post")
+          .form-group
+            label Username :
+            input(type='text', name="username").col-md-offset-1
+          .form-group
+            label Password :
+            input(type='password', name="password").col-md-offset-1
+          
+
+          button#login_submit.col-md-4.btn(type='submit')
+            i.icon-ok.icon-white
+            |  Connect to your account
+        form(action='/signup', method="get")
+          button.col-md-4.col-md-offset-1.btn(type='submit') Create a new account
