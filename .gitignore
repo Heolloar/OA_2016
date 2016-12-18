@@ -3,3 +3,7 @@ node_modules/*
 .vscode
 .DS_Store
 lib/*
+db/metrics/*
+db/session/*
+db/user-metrics/*
+db/users/*
